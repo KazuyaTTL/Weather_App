@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
                 String city = cityName.getText().toString();
                 try{
                     if(city!=null){
-                        url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=afe87584061aa668bc6291afb44fc24f&units=metric&lang=vi";
+                        url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid={YOUR API}&units=metric&lang=vi";
                     }else{
                         Toast.makeText(MainActivity.this, "Enter City", Toast.LENGTH_SHORT).show();
                     }
